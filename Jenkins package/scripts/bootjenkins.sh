@@ -30,17 +30,6 @@ apt-get install -y vim
 apt-get install -y jenkins
 service jenkins start
 
-echo   
-echo "**********************************************************************"
-echo "*                                                                    *"
-echo "* Download the CLI                                                   *"  
-echo "*                                                                    *"  
-echo "**********************************************************************" 
-echo
-
-cd /home/vagrant
-wget http://192.168.33.65:8080/jnlpJars/jenkins-cli.jar
-
 
 ifconfig
 exit 0

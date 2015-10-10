@@ -53,16 +53,5 @@ echo
 docker pull jenkins
 docker run --name myjenkins -p 8080:8080 -v /var/jenkins_home jenkins
 
-echo   
-echo "**********************************************************************"
-echo "*                                                                    *"
-echo "* Download the CLI                                                   *"  
-echo "*                                                                    *"  
-echo "**********************************************************************" 
-echo
-
-cd /home/vagrant
-wget http://192.168.33.66:8080/jnlpJars/jenkins-cli.jar
-
 ifconfig
 exit 0
